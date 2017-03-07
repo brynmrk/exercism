@@ -1,1 +1,3 @@
-# exercism
+# Exercism.io
+
+Exercism Ruby Problems
