@@ -1,5 +1,5 @@
 class Year
   def self.leap? year
-    year % 4 && year % 400 == 0 || year % 100 != 0 ? true : false
+    (year % 4).zero? && (!(year % 100).zero? || (year % 400).zero?)
   end
 end
